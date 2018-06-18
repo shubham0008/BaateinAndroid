@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+       android:layout_centerInParent="true"
+        android:id="@+id/rl_edit"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:hint="Enter Name Here"
+            android:padding="5dp"
+            android:id="@+id/name_text"
+            android:layout_gravity=""
+            android:fontFamily="serif-monospace"
+            android:textColorHint="@android:color/white"
+            android:textColor="#fff"
+            android:layout_margin="10dp"
+            android:background="#000"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/rl_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="18dp"
+        android:src="@drawable/ic_send_black_24dp" />
+
+</RelativeLayout>
